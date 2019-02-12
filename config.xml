@@ -41,7 +41,7 @@
        <param name="LOCATION_WHEN_IN_USE_DESCRIPTION" value="Karenderia wants to use your location" />
        <param name="LOCATION_ALWAYS_USAGE_DESCRIPTION" value="Karenderia want to always use your location" />
     </gap:plugin>
-    
+    <gap:plugin name="phonegap-plugin-push" spec=2.1.0 />
     <gap:plugin name="cordova-plugin-buildinfo" source="npm" spec="1.1.0"  />
     
     <gap:plugin name="cordova-plugin-googleplus" source="npm" spec="5.1.1">
