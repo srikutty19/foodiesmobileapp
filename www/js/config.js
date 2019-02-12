@@ -1,7 +1,7 @@
 var krms_config ={			
-	'ApiUrl':"http://rapidtest.ga/foodieschoice/mobileapp/api",	
+	'ApiUrl':"http://foodieschoice.tk/mobileapp/api",	
 	'DialogDefaultTitle':"FC",	
 	'pushNotificationSenderid':"55665236116",	
 	'facebookAppId':"", 
-	'APIHasKey':"69d10a57daa34341c6fd17d047a8c2b7"
+	'APIHasKey':"66e799d6a7013b5c38088be9d090c991"
 };
