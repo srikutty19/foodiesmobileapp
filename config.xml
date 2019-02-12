@@ -26,10 +26,10 @@
     <gap:plugin name="cordova-plugin-device" source="npm" />		
 	<gap:plugin name="cordova-plugin-inappbrowser" source="npm" />		
 	<gap:plugin name="cordova-plugin-splashscreen" source="npm" />	
-	<gap:plugin name="cordova-plugin-geolocation" source="npm" spec="1.0.1" />
+	<gap:plugin name="cordova-plugin-geolocation" source="npm" />
 	<gap:plugin name="cordova-plugin-network-information" source="npm" />
 		
-	<gap:plugin name="cordova-plugin-request-location-accuracy" source="npm"  spec="2.2.0" />	
+	<gap:plugin name="cordova-plugin-request-location-accuracy" source="npm" />	
 	<gap:plugin name="cordova-plugin-x-toast" source="npm" spec="2.6.0" />	
 	
 	<gap:plugin spec="https://github.com/razorpay/razorpay-cordova.git#v1.4.0" source="git" />
