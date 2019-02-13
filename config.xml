@@ -36,8 +36,9 @@
 	<gap:plugin name="cordova-plugin-media" source="npm" spec="3.0.0" />	
 	<gap:plugin name="cordova.plugins.diagnostic" source="npm" spec="3.7.1" />	
 		
-	<gap:plugin name="cordova-plugin-googlemaps" source="npm" spec="2.5.0" >
+	<gap:plugin name="cordova-plugin-googlemaps" source="npm">
        <param name="API_KEY_FOR_ANDROID" value="AIzaSyDOsSo685Yl-gr8ri5bOkxubuLaMinrXOc" />
+      <param name="API_KEY_FOR_IOS" value="" />	
        <param name="LOCATION_WHEN_IN_USE_DESCRIPTION" value="Karenderia wants to use your location" />
        <param name="LOCATION_ALWAYS_USAGE_DESCRIPTION" value="Karenderia want to always use your location" />
     </gap:plugin>
@@ -66,8 +67,7 @@
         <application android:theme="@android:style/Theme.NoTitleBar" >            
         </application>        
     </gap:config-file> 
-	            
-    <preference name="phonegap-version" value="cli-7.1.0" />     
+   <preference name="phonegap-version" value="cli-7.1.0" />     
     <gap:plugin name="cordova-plugin-camera" source="npm" spec="2.4.1" />
 	
     <gap:plugin name="cordova-plugin-file-transfer" source="npm" spec="1.6.2" /> 
@@ -110,10 +110,8 @@
 	<edit-config target="NSMicrophoneUsageDescription" file="*-Info.plist" mode="merge">
       <string>need microphone access to record sounds</string>
     </edit-config>
-    
-	<platform name="android">
-		
-	    <resource-file src="www/beep.wav" target="res/raw/beep.wav" /> 
+    <platform name="android">
+	  <resource-file src="www/beep.wav" target="res/raw/beep.wav" /> 
 	
 		<icon density="ldpi" src="res/icons/android/drawable-ldpi-icon.png" />
 		<icon density="mdpi" src="res/icons/android/drawable-mdpi-icon.png" />
