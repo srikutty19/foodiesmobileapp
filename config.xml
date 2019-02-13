@@ -12,10 +12,13 @@
     <author email="sri9132@gmail.com" href="http://raspidtest.ga">
         rapidtest.ga
     </author>
-            <platform name="android">
-        <framework src="com.google.android.gms:play-services-analytics:15.0.0" />
-        <framework src="com.google.gms.google-services:15.0.0" />
-    </platform>
+           
+ 
+        <framework src="com.google.android.gms:play-services-analytics:12.0.1" />
+        <framework src="com.google.gms.google-services:12.0.1" />
+
+
+
     </platform>
     <content src="index.html" />
                
@@ -47,7 +50,8 @@
     </gap:plugin>
  
     <gap:plugin name="cordova-plugin-buildinfo" source="npm" spec="1.1.0"  />
-    <framework src="com.google.gms.google-services:11.8.0" />
+    <framework src="com.google.gms.google-services:12.0.0" />
+		
     <gap:plugin name="cordova-plugin-googleplus" source="npm" spec="7.0.0">
      <variable name="REVERSED_CLIENT_ID" value="" />
     </gap:plugin>
