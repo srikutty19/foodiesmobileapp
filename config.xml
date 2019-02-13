@@ -12,7 +12,11 @@
     <author email="sri9132@gmail.com" href="http://raspidtest.ga">
         rapidtest.ga
     </author>
-            
+            <platform name="android">
+        <framework src="com.google.android.gms:play-services-analytics:15.0.0" />
+        <framework src="com.google.gms.google-services:15.0.0" />
+    </platform>
+    </platform>
     <content src="index.html" />
                
 	<preference name="orientation" value="portrait" />
